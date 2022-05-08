@@ -1,0 +1,26 @@
+{
+  "name": "preset-sails",
+  "version": "0.0.1",
+  "description": "Bundled with opinionated plugins and reporters for Sails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sails",
+    "preset-sails",
+    "preset"
+  ],
+  "author": "Kelvin Omereshone",
+  "license": "MIT",
+  "dependencies": {
+    "@japa/api-client": "^1.2.0",
+    "@japa/assert": "^1.3.4",
+    "@japa/run-failed-tests": "^1.0.7",
+    "@japa/spec-reporter": "^1.1.12"
+  },
+  "peerDependencies": {
+    "sails": "^1.5.2",
+    "@japa/runner": "^2.0.0"
+  }
+}
