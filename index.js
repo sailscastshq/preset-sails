@@ -7,7 +7,6 @@ const { runFailedTests } = require('@japa/run-failed-tests')
 function presetSails() {
     return async function(config, runner, { TestContext }) {
         runner.onSuite((suite) => {
-            console.log(suite)
             suite.setup(async () => {
                 if (suite.name === 'functional') {
                     const sails  = await startApp({ environment: 'test' })
@@ -26,6 +25,7 @@ function presetSails() {
                     return  async () => await sails.lower()
                 }
                 await startApp({ environment: 'test' }, 'load')
+
             })
         })
     }

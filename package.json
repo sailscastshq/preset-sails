@@ -20,7 +20,7 @@
     "@japa/spec-reporter": "^1.1.12"
   },
   "peerDependencies": {
-    "sails": "^1.5.2",
-    "@japa/runner": "^2.0.0"
+    "@japa/runner": "^2.0.0",
+    "sails": "^1.5.2"
   }
 }
