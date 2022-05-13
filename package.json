@@ -11,7 +11,7 @@
     "preset-sails",
     "preset"
   ],
-  "author": "Kelvin Omereshone",
+  "author": "Kelvin Omereshone Oghenerhoro <kelvin@sailscasts.com>",
   "license": "MIT",
   "dependencies": {
     "@japa/api-client": "^1.2.0",
