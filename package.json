@@ -1,5 +1,5 @@
 {
-  "name": "@japa/preset-sails",
+  "name": "preset-sails",
   "version": "1.0.0",
   "description": "Bundled with opinionated plugins and reporters for Sails",
   "main": "index.js",
