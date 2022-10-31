@@ -6,7 +6,7 @@ Instead of installing individual plugins, reporters and starting the Sails serve
 
 
 ```sh
-npm i @japa/preset-sails --save-dev
+npm i preset-sails --save-dev
 ```
 
 
